@@ -40,4 +40,4 @@ if st.button("Predict Price"):
     predicted_price = predict()
     st.balloons()
     st.write("Our Prediction")
-    st.success("Model is Predicting it's a {}".format(predicted_price))
+    st.success("Model is Predicting it's a {} ₹".format(predicted_price))
